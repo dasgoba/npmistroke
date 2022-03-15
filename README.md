@@ -4,7 +4,7 @@ Association between stroke related keywords and human gene symbols have been mea
 
 <br/>
 
-** Prerequisites: <br/>
+** Prerequisites:** <br/>
  
 1. Biopython (>= 1.65) <br/>
 2. NumPy (latest) <br/>
@@ -19,7 +19,7 @@ Association between stroke related keywords and human gene symbols have been mea
 
 <br/>
 
-**Usage:  python npmi.py
+**Usage:  python npmi.py **
 
 <br/>
 **Sample Inputs:
@@ -31,10 +31,12 @@ MTHFR
 
 <br/><br/>
 
-Sample advanced query:
---- | ---
-Query for stroke | "(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" |
-query for Hemorrhagic Stroke | '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' |
+**Sample advanced query: **
+
+1. Query for stroke 
+"(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" |
+2. Query for Hemorrhagic Stroke  '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' 
+
 
 <br/><br/>
 
