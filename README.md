@@ -30,7 +30,6 @@ Sample Inputs:
 Filename: input.txt
 --- | 
 Gene_symbol 
---- | 
 IMPACT 
 MTHFR 
 
