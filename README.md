@@ -33,9 +33,10 @@ MTHFR
 
 **Sample advanced query:**
 
-1. Query for stroke 
-"(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" |
-2. Query for Hemorrhagic Stroke  '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' 
+1. Query for stroke: <br/>
+"(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" 
+2. Query for Hemorrhagic Stroke: <br/>  
+'("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' 
 
 
 <br/>
