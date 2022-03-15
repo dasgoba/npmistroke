@@ -19,26 +19,26 @@ Association between stroke related keywords and human gene symbols have been mea
 
 <br/>
 
-**Usage:  python npmi.py **
+**Usage:  python npmi.py**
 
 <br/>
-**Sample Inputs:
+**Sample Inputs:**
 
 Filename: input.txt
 --- | 
 IMPACT 
 MTHFR 
 
-<br/><br/>
+<br/>
 
-**Sample advanced query: **
+**Sample advanced query:**
 
 1. Query for stroke 
 "(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" |
 2. Query for Hemorrhagic Stroke  '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' 
 
 
-<br/><br/>
+<br/>
 
 **Sample Output:**
 
