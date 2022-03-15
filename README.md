@@ -58,5 +58,11 @@ XY: No. of hits related to query X combined with query Y <br/>
 nPMI: Normalized pointwise mutual information calculated using Bouma et al.
 
 
+Please Cite: <br/>
+Gourab, Das, and Pradeep Gupta. "Potential Key Genes Associated with Stroke types and its subtypes: A Computational Approach." Neuroscience Informatics (2022): (Submitted).
 
+Contact:
+
+Dr. Gourab Das <br/>
+Email: gourabdas0727@gmail.com
 
