@@ -22,8 +22,8 @@ Association between stroke related keywords and human gene symbols have been mea
 **Usage:  python npmi.py**
 
 <br/>
-**Sample Inputs:**
 
+**Sample Inputs:**
 Filename: input.txt
 --- | 
 IMPACT 
@@ -35,7 +35,7 @@ MTHFR
 
 1. Query for stroke: <br/>
 "(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" 
-2. Query for Hemorrhagic Stroke: <br/>  
+2. Query for Hemorrhagic Stroke:
 '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' 
 
 
