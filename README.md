@@ -2,30 +2,26 @@
 
 Association between stroke related keywords and human gene symbols have been measured from the PubMed using normalized pointwise mutual information (nPMI). PubMed advanced queries have been prepared utilizing the stroke related keywords from domain knowldge and gene symbols. For each type and sub-type of the stroke and each gene symbol, PubMed title and abstracts have been searched with the query and no. of hits (document frequency DF) have been recorded. DFs have been converted to nPMI using the formula by Bouma et al. [Proceedings of GSCL 30 (2009): 31-40]. A python script has been written for nPMI calculation.
 
+<br/><br/><br/>
 
-Prerequisites: 
---- | 
-Biopython (>= 1.65);
-NumPy (latest);
-A text file of gene symbols. One symbol per line.
-A output text file
-PubMed advanced query
+Prerequisites: <br/>
  
-
+1. Biopython (>= 1.65) <br/>
+2. NumPy (latest) <br/>
+3. A text file of gene symbols. One symbol per line <br/>
+4. A output text file <br/>
+5. PubMed advanced query <br/>
+ 
+<br/><br/><br/>
 
 **Compatibility:**
         python 2 or 3
 
+<br/><br/><br/>
 
+**Usage: ** python npmi.py
 
-**Usage: python npmi.py**
-
-
-
-Sample Inputs:
-
-
-
+**Sample Inputs:**
 
 Filename: input.txt
 --- | 
