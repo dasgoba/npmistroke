@@ -2,9 +2,9 @@
 
 Association between stroke related keywords and human gene symbols have been measured from the PubMed using normalized pointwise mutual information (nPMI). PubMed advanced queries have been prepared utilizing the stroke related keywords from domain knowldge and gene symbols. For each type and sub-type of the stroke and each gene symbol, PubMed title and abstracts have been searched with the query and no. of hits (document frequency DF) have been recorded. DFs have been converted to nPMI using the formula by Bouma et al. [Proceedings of GSCL 30 (2009): 31-40]. A python script has been written for nPMI calculation.
 
-<br/><br/><br/>
+<br/>
 
-Prerequisites: <br/>
+** Prerequisites: <br/>**
  
 1. Biopython (>= 1.65) <br/>
 2. NumPy (latest) <br/>
@@ -12,12 +12,12 @@ Prerequisites: <br/>
 4. A output text file <br/>
 5. PubMed advanced query <br/>
  
-<br/><br/><br/>
+<br/>
 
 **Compatibility:**
         python 2 or 3
 
-<br/><br/><br/>
+<br/>
 
 **Usage: ** python npmi.py
 
@@ -28,13 +28,14 @@ Filename: input.txt
 IMPACT 
 MTHFR 
 
+<br/><br/>
 
 Sample advanced query:
 --- | 
-Query for stroke | "(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]"
-query for Hemorrhagic Stroke | '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]'
+Query for stroke | "(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]" |
+query for Hemorrhagic Stroke | '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]' |
 
-
+<br/><br/>
 
 **Sample Output:**
 
@@ -46,11 +47,11 @@ MTHFR |	20816630 | 4297 | 9626 | 307 | 0.453021431
 
 where,
 
-N: Total no. of PubMed entires on that date
-X: No. of hits related to query 'x'
-Y: No. of hits related to query 'y'
-XY: No. of hits related to query X combined with query Y
-nPMI: 
+N: Total no. of PubMed entires on that date <br/>
+X: No. of hits related to query 'x' <br/>
+Y: No. of hits related to query 'y' <br/>
+XY: No. of hits related to query X combined with query Y <br/>
+nPMI: Normalized pointwise mutual information calculated using Bouma et al.
 
 
 
