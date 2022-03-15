@@ -5,8 +5,8 @@ Association between stroke related keywords and human gene symbols have been mea
 
 
 Prerequisites: 
-        1. Biopython (>= 1.65)
-        2. NumPy ()
+        1. Biopython (>= 1.65);
+        2. NumPy (latest);
         3. A text file of gene symbols. One symbol per line.
         4. A output text file
         5. PubMed advanced query
