@@ -4,7 +4,7 @@ Association between stroke related keywords and human gene symbols have been mea
 
 <br/>
 
-** Prerequisites:** <br/>
+**Prerequisites:** <br/>
  
 1. Biopython (>= 1.65) <br/>
 2. NumPy (latest) <br/>
