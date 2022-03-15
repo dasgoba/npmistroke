@@ -16,6 +16,13 @@ Usage: python npmi.py
 
 Sample Inputs:
 
+
+Filename: input.txt
+Gene_symbol 
+--- | 
+IMPACT 
+MTHFR 
+
 Filename: input.txt
 
 IMPACT
