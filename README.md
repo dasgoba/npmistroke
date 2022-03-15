@@ -1,2 +1,1 @@
-# npmistroke
-A text data driven method for stroke gene identification
+# nPMI_stroke: A text data driven method for stroke gene identification
