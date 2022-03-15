@@ -1,4 +1,4 @@
-# A text data driven method for stroke associated gene identification
+## A text data driven method for stroke associated gene identification
 
 Association between stroke related keywords and human gene symbols have been measured from the PubMed using normalized pointwise mutual information (nPMI). PubMed advanced queries have been prepared utilizing the stroke related keywords from domain knowldge and gene symbols. For each type and sub-type of the stroke and each gene symbol, PubMed title and abstracts have been searched with the query and no. of hits (document frequency DF) have been recorded. DFs have been converted to nPMI using the formula by Bouma et al. [Proceedings of GSCL 30 (2009): 31-40]. A python script has been written for nPMI calculation.
 
@@ -13,12 +13,12 @@ PubMed advanced query
  
 
 
-**Compatibility:
+**Compatibility:**
         python 2 or 3
 
 
 
-**Usage: python npmi.py
+**Usage: python npmi.py**
 
 
 
@@ -35,13 +35,12 @@ MTHFR
 
 Sample advanced query:
 --- | 
-
 Query for stroke | "(stroke[TIAB] OR Cerebrovascular[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]"
 query for Hemorrhagic Stroke | '("Intracerebral hemorrhage"[TIAB] OR "Hemorrhagic Stroke"[TIAB] OR "Subarchanoid hemorrhage"[TIAB]) AND (gene[TIAB] OR genes[TIAB]) AND hasabstract[text]'
 
 
 
-**Sample Output:
+**Sample Output:**
 
 Gene_symbol | #N | #X | #Y | #XY | nPMI
 --- | --- | --- | --- |--- |--- 
