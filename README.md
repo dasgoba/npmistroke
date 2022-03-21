@@ -48,7 +48,7 @@ MTHFR
 3. Uncomment/ Write required PubMed advanced query in the specified positions (Follow comments in the script. See samples above or in the script). <br/>
 4. Please enter input and output text file with absolute paths in the specified positions (Follow comments in the script). <br/>
 5. Save the modified script. <br/>
-6. Run by typingthe following command in linux terminal or windows dos promt: **python npmi.py** <br/>
+6. Run by typing the following command in linux terminal or windows dos promt: **python npmi.py** <br/>
 
 <br/>
 
