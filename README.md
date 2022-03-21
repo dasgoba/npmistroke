@@ -41,6 +41,23 @@ MTHFR
 
 <br/>
 
+**How to run the script:**
+
+1. Open npmi.py in suitable text editor (preferably Notepad++ or EditPlus). <br/> 
+2. Enter email id and script name in the specified positions (Follow comments in the script). <br/>
+3. Uncomment/ Write required PubMed advanced query in the specified positions (Follow comments in the script. See samples above or in the script). <br/>
+4. Please enter input and output text file with absolute paths in the specified positions (Follow comments in the script). <br/>
+5. Save the modified script. <br/>
+6. Run by typingthe following command in linux terminal or windows dos promt: **python npmi.py** <br/>
+
+<br/>
+
+**Troubleshooting:**
+
+This script calculates nPMI using NCBI The Entrez Programming Utilities (E-utilities). Hence, kindly populate the input file with at max 10 gene symbols at a time for quick output and avoid PubMed database connetion error. If still encounter PubMed connetion error, please re-run the script. For more details please follow NCBI 
+
+https://www.ncbi.nlm.nih.gov/books/NBK25497/
+
 **Sample Output:**
 
 Gene_symbol | #N | #X | #Y | #XY | nPMI
