@@ -52,11 +52,6 @@ MTHFR
 
 <br/>
 
-**Troubleshooting:**
-
-This script calculates nPMI using NCBI The Entrez Programming Utilities (E-utilities). Hence, kindly populate the input file with at max 10 gene symbols at a time for quick output and avoid PubMed database connetion error. If still encounter PubMed connetion error, please re-run the script. For more details please follow NCBI 
-
-https://www.ncbi.nlm.nih.gov/books/NBK25497/
 
 **Sample Output:**
 
@@ -74,9 +69,18 @@ Y: No. of hits related to query 'y' <br/>
 XY: No. of hits related to query X combined with query Y <br/>
 nPMI: Normalized pointwise mutual information calculated using Bouma et al.
 
+<br/>
 
 **Please Cite:** <br/>
 Gourab, Das, and Pradeep Gupta. "Potential Key Genes Associated with Stroke types and its subtypes: A Computational Approach." Neuroscience Informatics (2022): (Submitted).
+
+<br/>
+
+**Troubleshooting:**
+
+This script calculates nPMI using NCBI The Entrez Programming Utilities (E-utilities). Hence, kindly prepare the input file with at max 10 gene symbols at a time for quick output and avoid PubMed database connetion error. If still encounter PubMed connetion error, please re-run the script. For more details please follow NCBI https://www.ncbi.nlm.nih.gov/books/NBK25497/. 
+
+<br/>
 
 **Contact:**
 
