@@ -78,13 +78,13 @@ Gourab, Das, and Pradeep Gupta. "Potential Key Genes Associated with Stroke type
 
 **Troubleshooting:**
 
-This script calculates nPMI using NCBI The Entrez Programming Utilities (E-utilities). Hence, kindly prepare the input file with at max 10 gene symbols at a time for quick output and avoid PubMed database connetion error. If still encounter PubMed connection error, please re-run the script. For more details please follow NCBI https://www.ncbi.nlm.nih.gov/books/NBK25497/. 
+This script calculates nPMI using NCBI The Entrez Programming Utilities (E-utilities). Hence, kindly prepare the input file with at max 10 gene symbols at a time for quick output and avoid PubMed database connection error. If still encounter PubMed connection error, please re-run the script. For more details please follow NCBI https://www.ncbi.nlm.nih.gov/books/NBK25497/. 
 
 <br/>
 
 **Contact:**
 
 Dr. Gourab Das <br/>
-ACTREC, TMC <br/>
+ACTREC, TMC (https://www.actrec.gov.in/) <br/>
 Email: gourabdas0727@gmail.com
 
