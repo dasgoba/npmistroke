@@ -72,7 +72,7 @@ nPMI: Normalized pointwise mutual information calculated using Bouma et al.
 <br/>
 
 **Please Cite:** <br/>
-Gourab, Das, and Pradeep Gupta. "Potential Key Genes Associated with Stroke types and its subtypes: A Computational Approach." Neuroscience Informatics (2022): (Submitted).
+Das, Gourab, and Pradeep Kumar. "Potential Key Genes for Predicting Risk of Stroke Occurrence: A Computational Approach." Neuroscience Informatics (2022): 100068 https://doi.org/10.1016/j.neuri.2022.100068.
 
 <br/>
 
